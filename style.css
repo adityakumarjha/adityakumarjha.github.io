@@ -8,13 +8,13 @@ form {
     padding: 5px 2px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(216, 159, 159);
     box-sizing: border-box;
     border-radius: 8px;
     display:inline;
   }
 
-  input:after {
+  input[type=text]:after, input[type=password]:after {
     content:"\a";
     white-space: pre;
 }
