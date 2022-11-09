@@ -3,6 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("uname").value;
 var password = document.getElementById("psw").value;
+
 if ( username == "test" && password == "admin"){
 alert ("Login successfully");
 window.location = "success.html"; // Redirecting to other page.
@@ -14,7 +15,7 @@ alert("You have left "+attempt+" attempt;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
 document.getElementById("uname").disabled = true;
-document.getElementById("pswcommit").disabled = true;
+document.getElementById("psw").disabled = true;
 document.getElementById("submit").disabled = true;
 return false;
 }

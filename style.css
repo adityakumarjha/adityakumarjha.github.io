@@ -5,7 +5,7 @@ form {
   /* Full-width inputs */
   input[type=text], input[type=password] {
 
-    padding: 5px 2px;
+    padding: 25px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid rgb(216, 159, 159);
@@ -23,7 +23,7 @@ form {
   button {
     background-color: #04AA6D;
     color: white;
-    padding: 5px 2px;
+    padding: 25px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
