@@ -1,4 +1,7 @@
-var attempt = 3; // Variable to count number of attempts.
+var attempt = 3;
+let btn_element = document.getElementById("submit");
+  
+btn_element.addEventListener("click",validate()) // Variable to count number of attempts.
 console.log(username+"test");// Below function Executes on click of login button.
 function validate(){
 var username = document.getElementById("uname").value;
