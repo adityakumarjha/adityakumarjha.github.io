@@ -1,4 +1,10 @@
-var attempt = 3;
+
+if(localStorage.getItem("attempt")==null)
+{
+localStorage.setItem("attempt", 3);
+}
+else
+attempt=localStorage.getItem("attempt");
 //var btn_element = document.getElementById("submit");
   
 //btn_element.addEventListener("click",validate) // Variable to count number of attempts.
