@@ -12,6 +12,11 @@ form {
     box-sizing: border-box;
     border-radius: 8px;
   }
+
+  input:after {
+    content:"\a";
+    white-space: pre;
+}
   
   /* Set a style for all buttons */
   button {
@@ -24,6 +29,11 @@ form {
     width: 100%;
     border-radius: 8px;
   }
+
+  button:after {
+    content:"\a";
+    white-space: pre;
+}
   
   /* Add a hover effect for buttons */
   button:hover {
