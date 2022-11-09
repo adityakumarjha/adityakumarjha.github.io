@@ -11,6 +11,7 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 8px;
+    display:inline;
   }
 
   input:after {
@@ -28,6 +29,7 @@ form {
     cursor: pointer;
     width: 100%;
     border-radius: 8px;
+    display:inline;
   }
 
   button:after {
