@@ -14,8 +14,7 @@ var username = document.getElementById("uname").value;
 var password = document.getElementById("psw").value;
 console.log(username+"test");
 if ( username == "test" && password == "admin"){
-alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
+window.location = "LandingPagePHC/index.html"; // Redirecting to other page.
 return false;
 }
 else{
