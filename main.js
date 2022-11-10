@@ -14,7 +14,7 @@ var username = document.getElementById("uname").value;
 var password = document.getElementById("psw").value;
 console.log(username+"test");
 if ( username == "test" && password == "admin"){
-    window.location.replace('adityakumarjha.github.io/LandingPHC.html'); // Redirecting to other page.
+    window.location.replace('https://adityakumarjha.github.io/LandingPHC.html'); // Redirecting to other page.
 return false;
 }
 else{
