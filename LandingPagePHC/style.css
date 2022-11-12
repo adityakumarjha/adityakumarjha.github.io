@@ -15,10 +15,10 @@
   margin: 9px;
   position: absolute;
   border-radius: 10%;
-  top: 50%;
+  /* top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  height: 30%;
+  height: 30%; */
   width: 15%;
   background-color: #e8a87c;
   color: rgb(43, 177, 94);
