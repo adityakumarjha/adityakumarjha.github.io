@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main1.js"></script>
+    <script src="main.js"></script>
     <title>PHC-Dashboard</title>
 </head>
 <body>
@@ -18,12 +18,28 @@
             <div class="UserName"><button class="item">Resume</button></div>
           </div>
           <!-- <div><button class="user"><img class="profile img" src="profilepic.jpg"/></button></div> -->
+          
+          <div class="main">
           <div class="section" id="form">
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Name" id="name" required>
+        
+            <label for="dob"><b>Date of Birth</b></label>
+            <input type="date" placeholder="Date of Birth" id="dob" required>
             
+            <label for="symptoms"><b>Symptoms</b></label>
+            <input type="text" placeholder="Enter Username" id="symptoms" required>
+        
+            <label for="symptomdesc"><b>Symptom description</b></label>
+            <input type="text" placeholder="Symptom description" id="symptomdesc" required>
+        
+            <button type="submit" id="submit" onclick="validate()">Submit</button>
+           
           </div>
           <div class="section" id="ActiveCases">
-            <div class="test"></div>
+            <div class="test">test1</div>
             
+        </div>
         </div>
 </body>
 </html>
