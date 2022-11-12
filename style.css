@@ -1,5 +1,13 @@
 
 .top{
-  width: 20px;
-  float: left;
+  width: 80%;
+  position: absolute;
+  margin-left: 10%;
+  height: 40px;
+
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+
+  top: 2%;
 }
