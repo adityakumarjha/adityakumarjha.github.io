@@ -1,8 +1,9 @@
 .top{
-  width: 80%;
+  left: 5%;
+  right: 5%;
   position: absolute;
   margin-left: 10%;
-  height: 10%;
+  height: 7%;
 
   display: flex;
   justify-content: flex-end;
@@ -13,9 +14,12 @@
 
 .top button {
   margin: 9px;
-  border-radius: 20%;
-  height: 80%;
-  width: 10%;
+  border-radius: 10%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 30%;
+  width: 5%;
   background-color: rgb(241, 235, 235);
   color: rgb(43, 177, 94);
 }
