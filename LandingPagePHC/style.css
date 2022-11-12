@@ -63,10 +63,11 @@
 }
 
 .form{
-  float: left;
-  clear: left;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
 }
-
+/* 
 @media only screen and (max-width: 600px) {
   .top {
     margin: 0px 0px 0px 80px;
@@ -81,4 +82,4 @@
     display: flex;
     flex-direction: column;
   }
-}
+} */
