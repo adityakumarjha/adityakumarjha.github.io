@@ -11,3 +11,12 @@
 
   top: 2%;
 }
+
+top button {
+  margin: 9px;
+  border-radius: 3px;
+  height: 50px;
+  width: 90px;
+  background-color: transparent;
+  color: rgb(43, 177, 94);
+}
