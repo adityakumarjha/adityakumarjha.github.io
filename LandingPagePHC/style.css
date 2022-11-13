@@ -9,7 +9,7 @@
   width:80%;
   margin-left: 10%;
   height: 7%;
-
+  position: absolute;
   display: flex;
   justify-content: flex-end;
   float: left;
@@ -24,7 +24,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   height: 30%; 
-  width: 100%;
+  width: 15%;
   background-color: #e8a87c;
   color: rgb(43, 177, 94);
   border-color: aquamarine;
@@ -53,7 +53,7 @@
 
 .main{
   width:100%;
-  
+  position: absolute;
   height: 80%;
   top:20%;
   display: flex;
