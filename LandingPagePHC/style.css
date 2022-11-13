@@ -30,6 +30,11 @@
   border-color: aquamarine;
 }
 
+top button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(32, 30, 129);
+}
+
 .user{
   margin: 9px;
   border-radius: 3px;
