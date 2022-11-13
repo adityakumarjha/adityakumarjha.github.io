@@ -7,7 +7,7 @@
 
 .top{
   width:80%;
-  margin-left: 10%;
+  margin: 10%;
   height: 10%;
   position: absolute;
   display: flex;
@@ -28,6 +28,7 @@
   background-color: #e8a87c;
   color: rgb(43, 177, 94);
   border-color: aquamarine;
+  float: left;
 }
 
 top button:hover {
@@ -57,7 +58,8 @@ top button:hover {
 }
 
 .main{
-  width:50%;
+  width:100%;
+  top: 10%;
   position: absolute;
   height: 80%;
   top:20%;
