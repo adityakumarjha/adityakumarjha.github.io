@@ -30,7 +30,7 @@ top button:hover {
   color: rgb(32, 30, 129);
 }
 
-.user{
+/* .user{
   margin: 9px;
   border-radius: 3px;
   height: 50px;
@@ -49,24 +49,23 @@ top button:hover {
   float: right;
 
   top: 2%;
-}
+} */
 
 .main{
   width:100%;
   top: 10%;
   position: absolute;
   height: 80%;
-  top:20%;
   display: flex;
   justify-content: flex-end;
   float: left;
   background-color: #85dcb8;
-  top: 2%;
 }
 
 .form{
   width: 50%;
   display:flex;
+  float: left;
   flex-direction: column;
 }
 /* 
