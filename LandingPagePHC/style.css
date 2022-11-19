@@ -94,7 +94,7 @@
 input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
 {
     width: 45%;
-    padding: 20px;
+    padding: 12px 12px 12px 12px 20px;
     border: 1px solid rgb(168, 166, 166);
     border-radius: 4px;
     resize: vertical;
