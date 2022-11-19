@@ -31,6 +31,11 @@
   color: rgb(32, 30, 129);
 }
 
+.container
+{
+  float:left;
+}
+
 /* .user{
   margin: 9px;
   border-radius: 3px;
