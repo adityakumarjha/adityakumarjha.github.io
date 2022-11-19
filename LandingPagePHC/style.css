@@ -84,6 +84,10 @@ h2{
   text-align: center;
 }
 
+.list-group-item {
+  max-width: 200px;
+}
+
 .list-group-item button{
   padding: 5px;
 }
