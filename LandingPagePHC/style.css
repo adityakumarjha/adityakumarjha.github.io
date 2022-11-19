@@ -31,16 +31,22 @@
   color: black;
 }
 
-/* .col
+.col
 {
   float:left;
+  padding-left: 10%;
   padding-top: 10%;
 }
 
 #column2{
-  padding-left: 12px;
+  padding-right: 10%;
   float: right;
-} */
+}
+
+#symp
+{
+  padding: 7px;
+}
 /* .user{
   margin: 9px;
   border-radius: 3px;

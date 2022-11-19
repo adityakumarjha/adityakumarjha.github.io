@@ -30,12 +30,13 @@
           <!-- <div><button class="user"><img class="profile img" src="profilepic.jpg"/></button></div> -->
           
           <div class="row">
+
          <div class="col" id="column1">
             
             <form>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
               
-                  
+                  <div class="form-row">
                     <div class="form-outline">
                       <input type="text" id="form6Example1" class="form-control" />
                       <label class="form-label" for="form6Example1">First name</label>
@@ -45,7 +46,7 @@
                       <input type="text" id="form6Example2" class="form-control" />
                       <label class="form-label" for="form6Example2">Last name</label>
                     </div>
-
+                    </div>
               
                 
               
@@ -67,11 +68,11 @@
                   <label class="form-label" for="form6Example6">Phone</label>
                 </div>
                     <div class="form-outline mb-4">
-                    <label for="DateOfBirth">Date Of Birth:</label>
                     <input type="date" id="DateOfBirth" name="DateOfBirth">
+                    <label for="DateOfBirth">Date Of Birth</label>
                     </div>
 
-                    <div class="form-outline mb-4">
+                    <div class="form-outline mb-4" id="symp">
                         <select name="Symptom" id="symptom">
                             <option value=" ">Select Symptoms:</option>
                             <option value="Fever">Fever</option>
