@@ -15,7 +15,7 @@
   display: flex;
   justify-content: flex-end;
   float: right;
-
+  background-color: black;
   top: 2%;
 }
 .top button {
