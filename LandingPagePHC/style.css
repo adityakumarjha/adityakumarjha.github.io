@@ -33,12 +33,14 @@
 
 .col
 {
+  width: 50%;
   float:left;
   padding-top: 10%;
 }
 
 #column2{
   padding-left: 12px;
+  float: right;
 }
 /* .user{
   margin: 9px;
