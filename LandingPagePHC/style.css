@@ -31,13 +31,13 @@
   color: black;
 }
 
-.containers
+.col
 {
   float:left;
   padding-top: 10%;
 }
 
-#container2{
+#column2{
   padding-left: 12px;
 }
 /* .user{
