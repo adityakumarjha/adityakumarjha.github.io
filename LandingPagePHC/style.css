@@ -65,7 +65,7 @@ top button:hover {
 
 .form{
   width: 50%;
-  display:flex;
+  display: block;
   flex-direction: column;
 }
 /* 
