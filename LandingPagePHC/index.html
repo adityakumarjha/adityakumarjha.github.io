@@ -69,6 +69,7 @@
                     <input type="Date" id="dob" name="dob">
                 </div>
             </div>
+               
             <div class="row">
                 <div class="col-10">
                     <label for="address">Address:</label>
@@ -77,42 +78,26 @@
                     <textarea name="address" id="address" cols="30" rows="10"></textarea>
                 </div>
             </div>
-            <div class="row">
+             <div class="row">
                 <div class="col-10">
-                    <label for="city">City:</label>
+                    <label for="address">Symptom Description:</label>
                 </div>
                 <div class="col-90">
-                    <input type="text" id="city" name="city" maxlength="10">
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <div class="row">
                 <div class="col-10">
-                    <label for="pincode">Area PIN:</label>
+                    <label for="Symptoms" required >Symptoms:</label>
                 </div>
                 <div class="col-90">
-                    <input type="number" id="pin" name="pin" maxlength="6">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="state">State:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="state" name="state">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="qualification" required >Qualification:</label>
-                </div>
-                <div class="col-90">
-                    <select name="qualification" id="qualification">
-                        <option value=" ">Select Qualification:</option>
-                        <option value="Graduation">Graduation</option>
-                        <option value="BTech.">BTech.</option>
-                        <option value="MTech.">MTech.</option>
-                        <option value="MCA">MCA</option>
-                        <option value="BCA">BCA</option>
+                    <select name="Symptom" id="symptom">
+                        <option value=" ">Select Symptoms:</option>
+                        <option value="Fever">Fever</option>
+                        <option value="Anxiety">Anxiety</option>
+                        <option value="Redness in eyes.">Redness in eyes</option>
+                        <option value="Swelling">Swelling</option>
+                        <option value="Pain">Pain</option>
                     </select>
                 </div>
             </div>
