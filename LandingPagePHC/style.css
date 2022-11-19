@@ -84,7 +84,9 @@ h2{
   text-align: center;
 }
 
-
+.list-group button{
+  padding: 5px;
+}
 
 
 /* 
