@@ -110,36 +110,63 @@
             </div>
          </div>
          <div class="containers" id="container2">
-            <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px">
-                <h5 class="w3-bar-item">Patients</h5>
-                <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Patient #1')">Patient #1</button>
-                <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Patient #2')">Patient #2</button>
-                <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Patient #3')">Patient #3</button>
-              </div>
-              
-              <div style="margin-left:130px">
-                <div class="w3-padding">Request Details</div>
-              
-                <div id="Patient #1" class="w3-container city" style="display:none">
-                  <h2>Patient #1</h2>
-                  <p>London is the capital city of England.</p>
-                  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            
+            <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form6Example1" class="form-control" />
+                      <label class="form-label" for="form6Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form6Example2" class="form-control" />
+                      <label class="form-label" for="form6Example2">Last name</label>
+                    </div>
+                  </div>
                 </div>
               
-                <div id="Patient #2" class="w3-container city" style="display:none">
-                  <h2>Patient #2</h2>
-                  <p>Paris is the capital of France.</p> 
-                  <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form6Example3" class="form-control" />
+                  <label class="form-label" for="form6Example3">Company name</label>
                 </div>
               
-                <div id="Patient #3" class="w3-container city" style="display:none">
-                  <h2>Patient #3</h2>
-                  <p>Tokyo is the capital of Japan.</p>
-                  <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form6Example4" class="form-control" />
+                  <label class="form-label" for="form6Example4">Address</label>
                 </div>
               
-              </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form6Example5" class="form-control" />
+                  <label class="form-label" for="form6Example5">Email</label>
+                </div>
               
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                  <input type="number" id="form6Example6" class="form-control" />
+                  <label class="form-label" for="form6Example6">Phone</label>
+                </div>
+              
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                  <label class="form-label" for="form6Example7">Additional information</label>
+                </div>
+              
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+                  <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+              </form>
         </div>  
 </div>
 </body>
