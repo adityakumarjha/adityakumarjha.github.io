@@ -52,16 +52,16 @@ top button:hover {
   top: 2%;
 } */
 
-/* .main{
-  width:100%;
+ .main{
+/*   width:100%; */
   top: 10%;
   position: absolute;
   height: 80%;
   display: flex;
-  justify-content: flex-end;
-  float: left;
+/*   justify-content: flex-end; */
+/*   float: left; */
   background-color: #85dcb8;
-} */
+} 
 
 #form{
   width: 50%;
