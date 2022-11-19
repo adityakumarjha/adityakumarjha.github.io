@@ -10,7 +10,7 @@
   width: 100%;
   /* position: absolute; */
   /* margin-left: 10%; */
-  height: 50px;
+  height: 80px;
 
   display: flex;
   justify-content: flex-end;
@@ -100,7 +100,7 @@
 input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
 {
     width: 45%;
-    padding: 12px 12px 12px 12px 30px;
+    padding: 12px 12px 12px 30px;
     border: 1px solid rgb(168, 166, 166);
     border-radius: 4px;
     resize: vertical;
