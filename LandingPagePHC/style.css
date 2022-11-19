@@ -3,10 +3,7 @@
   padding: 0px;
   background-color: #85dcb8;
   box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-
+  
 }
 
 .top {
@@ -17,7 +14,7 @@
 
   display: flex;
   justify-content: flex-end;
-  float: right;
+  float: left;
 
   top: 2%;
 }
@@ -62,14 +59,13 @@ top button:hover {
   height: 80%;
   display: flex;
   justify-content: flex-end;
-  float: right;
+  float: left;
   background-color: #85dcb8;
 }
 
 .form{
   width: 50%;
   display:flex;
-  float: left;
   flex-direction: column;
 }
 /* 
