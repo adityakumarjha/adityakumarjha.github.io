@@ -10,7 +10,7 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   document.getElementById(cityName).style.cssFloat = "left";
-  evt.currentTarget.className += " w3-red";
+  evt.currentTarget.className += " container";
 }
 
 var buildingList = [{
