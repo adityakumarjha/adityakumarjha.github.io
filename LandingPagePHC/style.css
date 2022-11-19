@@ -5,7 +5,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
-  float: left;
+  float: right;
 
 }
 
@@ -17,7 +17,7 @@
 
   display: flex;
   justify-content: flex-end;
-  float: left;
+  float: right;
 
   top: 2%;
 }
@@ -62,7 +62,7 @@ top button:hover {
   height: 80%;
   display: flex;
   justify-content: flex-end;
-  float: left;
+  float: right;
   background-color: #85dcb8;
 }
 
