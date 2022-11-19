@@ -65,7 +65,7 @@
  .main{
 /*   width:100%; */
  top: 10%; 
-  position: absolute;
+  /* position: absolute; */
    left:5%;
 /*   height: 80%; */
 /*   display: flex; */
@@ -96,7 +96,7 @@
   }
 } */
 
-input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
+/* input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
 {
     width: 45%;
     padding: 12px 12px 12px 40px;
@@ -169,4 +169,4 @@ background-color: #32a336;
         width: 100%;
         margin-top: 0;
     }
-}
+} */
