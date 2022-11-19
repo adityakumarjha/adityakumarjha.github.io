@@ -8,7 +8,7 @@ function openCity(evt, cityName) {
   for (i = 0; i < x.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
   }
-  document.getElementById(cityName).style.display = "inline";
+  document.getElementById(cityName).style.display = "flex";
   evt.currentTarget.className += " container";
 }
 
