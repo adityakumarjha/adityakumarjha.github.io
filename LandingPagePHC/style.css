@@ -64,14 +64,14 @@
 
  .main{
 /*   width:100%; */
- top: 10%; 
+ /* top: 10%; 
   position: absolute;
-   left:5%;
+   left:5%; */
 /*   height: 80%; */
 /*   display: flex; */
 /*   justify-content: flex-end; */
 /*   float: left; */
-  background-color: #f8fcfa;
+  /* background-color: #f8fcfa; */
 } 
 
 #form{
