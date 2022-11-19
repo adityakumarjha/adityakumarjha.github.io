@@ -9,6 +9,7 @@ function openCity(evt, cityName) {
     tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
   }
   document.getElementById(cityName).style.display = "block";
+  document.getElementById(cityName).style.cssFloat = "left";
   evt.currentTarget.className += " w3-red";
 }
 
