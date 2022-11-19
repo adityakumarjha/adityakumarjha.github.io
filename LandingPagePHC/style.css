@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #85dcb8;
+  background-color: #85dcb800;
   box-sizing: border-box;
   
 }
@@ -66,7 +66,7 @@
 /*   display: flex; */
 /*   justify-content: flex-end; */
 /*   float: left; */
-  background-color: #85dcb8;
+  background-color: #f8fcfa;
   border: none;
 } 
 
