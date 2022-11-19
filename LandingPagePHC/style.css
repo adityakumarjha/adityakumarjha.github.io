@@ -31,16 +31,7 @@
   color: black;
 }
 
-.containers
-{
-  float:left;
-  height: 80%;
-  padding-top: 10%;
-}
-
-#container2{
-  padding-left: 12px;
-}
+/* ] */
 /* .user{
   margin: 9px;
   border-radius: 3px;
@@ -96,7 +87,7 @@
   }
 } */
 
-input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
+/* input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
 {
     width: 45%;
     padding: 12px 12px 12px 40px;
@@ -169,4 +160,4 @@ background-color: #32a336;
         width: 100%;
         margin-top: 0;
     }
-}
+} */
