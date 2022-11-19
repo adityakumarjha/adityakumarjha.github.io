@@ -123,7 +123,7 @@ h1{
     text-decoration: underline;
 }
 label{
-    padding: 12px 12px 12px 0;
+    padding: 12px 30px 12px 2px;
     display: inline-block;
 }
 input[type=submit] {
