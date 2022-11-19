@@ -54,11 +54,11 @@ top button:hover {
 
  .main{
 /*   width:100%; */
-  top: 30%;
+/*   top: 30%; */
   position: absolute;
-   left:20%;
-  height: 80%;
-  display: flex;
+   left:5%;
+/*   height: 80%; */
+/*   display: flex; */
 /*   justify-content: flex-end; */
 /*   float: left; */
   background-color: #85dcb8;
