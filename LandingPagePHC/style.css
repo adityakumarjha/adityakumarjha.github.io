@@ -9,7 +9,7 @@
 .top {
   width: 80%;
   position: absolute;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   height: 40px;
 
   display: flex;
