@@ -85,7 +85,8 @@ h2{
 }
 
 .list-group-item {
-  max-width: 400px;
+  align-content: left;
+  max-width: 600px;
 }
 
  button{
