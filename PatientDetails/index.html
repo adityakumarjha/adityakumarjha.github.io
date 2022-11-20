@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <title>PHC-Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">PHC-Portal</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Past Data</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Staff</a></li>
+          </ul>
+        </div>
+      </nav>
+          <!-- <div><button class="user"><img class="profile img" src="profilepic.jpg"/></button></div> -->
+          
+          <div class="row">
+
+         <div class="col" id="column1">
+            
+            <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+              <h2>PATIENT ADMISSION FORM</h2>
+                  <div class="form-row">
+                    <div class="form-outline">
+                      <input type="text" id="form6Example1" class="form-control" placeholder= "Patient" disabled/>
+                      <label class="form-label" for="form6Example1">First name</label>
+                    </div>
+                 
+                    <div class="form-outline">
+                      <input type="text" id="form6Example2" class="form-control" placeholder= "#1" disabled/>
+                      <label class="form-label" for="form6Example2">Last Name</label>
+                    </div>
+                    </div>
+              
+                
+              
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form6Example4" class="form-control"  placeholder= "Road# 1 house# 123 near MG Market" disabled/>
+                  <label class="form-label" for="form6Example4">Address</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form6Example5" class="form-control" placeholder= "abc@gmail.com" disabled/>
+                  <label class="form-label" for="form6Example5">Email</label>
+                </div>
+              
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                  <input type="number" id="form6Example6" class="form-control" placeholder= "+91xxxxxxxxxx" disabled/>
+                  <label class="form-label" for="form6Example6">Phone</label>
+                </div>
+                    <div class="form-outline mb-4">
+                    <input type="date" id="DateOfBirth" name="DateOfBirth" class="form-control" placeholder= "21/07/1995" disabled>
+                    <label class="form-label" for="DateOfBirth">Date Of Birth</label>
+                    </div>
+
+                    <div class="form-outline mb-4" id="symp">
+                        <select name="Symptom" id="symptom" class="form-control" placeholder= "Fever" disabled>
+                            <option value=" ">Select Symptoms:</option>
+                            <option value="Fever">Fever</option>
+                            <option value="Anxiety">Anxiety</option>
+                            <option value="Redness in eyes.">Redness in eyes</option>
+                            <option value="Swelling">Swelling</option>
+                            <option value="Pain">Pain</option>
+                        </select>
+                        </div>
+                    
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form6Example7" rows="4" placeholder= "Sore throat , fever and redness in eyes" disabled></textarea>
+                  <label class="form-label" for="form6Example7">Additional information</label>
+                </div>
+              
+            
+              </form>
+            </div>
+                  </div>
+                 
+</body>
+</html>

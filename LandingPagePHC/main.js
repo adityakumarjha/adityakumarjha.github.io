@@ -24,6 +24,9 @@ function Staff() {
   alert("PHC staffs have been notified");
 }
 
+function Submit() {
+  alert("Details have been submitted");
+}
 
 var buildingList = [{
     "BuildingName": "Adler Journalism and Mass Communication Building",
