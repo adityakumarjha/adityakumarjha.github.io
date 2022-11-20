@@ -12,6 +12,19 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " container";
 }
 
+function Ambulance() {
+  alert("Ambulance has been notified");
+}
+
+function PHC() {
+  alert("nearest PHC Details: +91xxxxxxxxxx");
+}
+
+function Staff() {
+  alert("PHC staffs have been notified");
+}
+
+
 var buildingList = [{
     "BuildingName": "Adler Journalism and Mass Communication Building",
         "BuildingNumber": "0456"
