@@ -34,13 +34,11 @@
 .col
 {
   float:left;
+
   padding-left: 10%;
   padding-top: 2%;
 }
 
-.list-group{
-  width: 50%;
-}
 #column2{
   padding-left: 10%;
   float: rileftght;
