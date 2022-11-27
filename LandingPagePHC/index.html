@@ -45,70 +45,36 @@
           <div class="row">
 
          <div class="col" id="column1">
-            
-            <form>
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-              <h2>PATIENT ADMISSION FORM</h2>
-                  <div class="form-row">
-                    <div class="form-outline">
-                      <input type="text" id="form6Example1" class="form-control" />
-                      <label class="form-label" for="form6Example1">First name</label>
-                    </div>
-                 
-                    <div class="form-outline">
-                      <input type="text" id="form6Example2" class="form-control" />
-                      <label class="form-label" for="form6Example2">Last name</label>
-                    </div>
-                    </div>
+          <div id="sampleDemo" class="demo-padding demo-container">
+            <div id="componentDemoContent" style="width: 1px; min-width: 100%;">
+                      
+              <div id="mainContent">
+                <oj-input-text
+                  id="filter"
+                  class="oj-form-control-max-width-md"
+                  label-hint="Filter"
+                  label-edge="inside"
+                  placeholder="Type to filter"
+                  on-raw-value-changed="[[handleValueChanged]]"
+                  value="{{filter}}"
+                  clear-icon="always"></oj-input-text>
+                <oj-table
+                  id="table"
+                  aria-label="Departments Table"
+                  accessibility.row-header="depName"
+                  data="[[dataprovider]]"
+                  scroll-policy="loadMoreOnScroll"
+                  columns-default.sortable="disabled"
+                  columns="{{columnArray}}"
+                  class="demo-table-container"></oj-table>
+              </div>
               
-                
               
-                <!-- Text input -->
-                <div class="form-outline mb-4">
-                  <input type="text" id="form6Example4" class="form-control" />
-                  <label class="form-label" for="form6Example4">Address</label>
-                </div>
               
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input type="email" id="form6Example5" class="form-control" />
-                  <label class="form-label" for="form6Example5">Email</label>
-                </div>
-              
-                <!-- Number input -->
-                <div class="form-outline mb-4">
-                  <input type="number" id="form6Example6" class="form-control" />
-                  <label class="form-label" for="form6Example6">Phone</label>
-                </div>
-                    <div class="form-outline mb-4">
-                    <input type="date" id="DateOfBirth" name="DateOfBirth" class="form-control">
-                    <label class="form-label" for="DateOfBirth">Date Of Birth</label>
-                    </div>
-
-                    <div class="form-outline mb-4" id="symp">
-                        <select name="Symptom" id="symptom" class="form-control">
-                            <option value=" ">Select Symptoms:</option>
-                            <option value="Fever">Fever</option>
-                            <option value="Anxiety">Anxiety</option>
-                            <option value="Redness in eyes.">Redness in eyes</option>
-                            <option value="Swelling">Swelling</option>
-                            <option value="Pain">Pain</option>
-                        </select>
-                        </div>
-                    
-                <!-- Message input -->
-                <div class="form-outline mb-4">
-                  <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-                  <label class="form-label" for="form6Example7">Additional information</label>
-                </div>
-              
-            
-              
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4" onclick="submit()">Submit</button>
-              </form>
             </div>
-              <div class="col" id="column2">
+          </div>
+          
+          <div class="col" id="column2">
             <h2>Active Cases</h2>
                   <div class="list-group">
   <a href="https://adityakumarjha.github.io/PatientDetails/index.html" class="list-group-item list-group-item-action flex-column align-items-start ">
