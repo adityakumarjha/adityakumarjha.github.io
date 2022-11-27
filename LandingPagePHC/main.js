@@ -51,8 +51,8 @@ for (i = 0; i < buildingList.length; i++) {
     dropDown.appendChild(listItem);
 }
 
-require(["require", "exports", "knockout", "ojs/ojbootstrap", "ojs/ojarraydataprovider", "ojs/ojlistdataproviderview", "text!../cookbook/dataCollections/table/shared/departmentData.json", "ojs/ojdataprovider", "ojs/ojknockout", "ojs/ojtable", "ojs/ojinputtext"], function (require, exports, ko, ojbootstrap_1, ArrayDataProvider, ListDataProviderView, deptData, ojdataprovider_1) {
-  "use strict";
+// require(["require", "exports", "knockout", "ojs/ojbootstrap", "ojs/ojarraydataprovider", "ojs/ojlistdataproviderview", "text!../cookbook/dataCollections/table/shared/departmentData.json", "ojs/ojdataprovider", "ojs/ojknockout", "ojs/ojtable", "ojs/ojinputtext"], function (require, exports, ko, ojbootstrap_1, ArrayDataProvider, ListDataProviderView, deptData, ojdataprovider_1) {
+//   "use strict";
   
   class ViewModel {
       constructor() {
