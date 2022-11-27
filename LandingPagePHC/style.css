@@ -10,22 +10,22 @@
   width: 100%;
   /* position: absolute; */
   /* margin-left: 10%; */
-  height: 18%;
+  height: 7%;
 
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  float: right;
+  float: right; */
   background-color: black;
   top: 2%;
 }
-.pos-f-t button {
+/* .pos-f-t button {
   margin: 9px;
   border-radius: 10px;
   height: 50px;
   width: 90px;
   background-color:rgb(21, 125, 221);
   color: black;
-}
+} */
 .top button:hover {
   background-color: rgb(42, 118, 99);
   color: black;
