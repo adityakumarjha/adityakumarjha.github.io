@@ -6,7 +6,7 @@
   
 }
 
-.top {
+.pos-f-t {
   width: 100%;
   /* position: absolute; */
   /* margin-left: 10%; */
@@ -18,7 +18,7 @@
   background-color: black;
   top: 2%;
 }
-.top button {
+.pos-f-t button {
   margin: 9px;
   border-radius: 10px;
   height: 50px;
